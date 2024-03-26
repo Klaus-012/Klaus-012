@@ -1,5 +1,5 @@
-<h1 align="center">Hi 👋, I'm Brian Mote</h1>
-<h3 align="center">A passionate developer driven to solve problems</h3>
+<h1 align="left">Hi 👋, I'm Brian Mote</h1>
+<h3 align="left">A passionate developer driven to solve problems</h3>
 
 <p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=klaus-012" alt="klaus-012" /></a> </p>
 
