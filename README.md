@@ -2,7 +2,7 @@
 ![Profile Views](https://komarev.com/ghpvc/?username=Klaus-012&color=blueviolet)
 [![GitHub followers](https://img.shields.io/github/followers/Klaus-012?label=Follow&style=social)](https://github.com/Klaus-012)
 
-![Klaus-012 Banner](https://images.pexels.com/photos/577585/pexels-photo-577585.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1)
+![Klaus-012 Banner](https://images.pexels.com/photos/577585/pexels-photo-577585.jpeg?auto=compress&cs=tinysrgb&w=960&h=600&dpr=1)
 
 ## 👨‍💻 About Me
 
