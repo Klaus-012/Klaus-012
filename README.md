@@ -1,12 +1,12 @@
 # Brian Mote: Full Stack Developer 🚀
-![Profile Views](https://komarev.com/ghpvc/?username=Klaus-012&color=blueviolet)
-[![GitHub followers](https://img.shields.io/github/followers/Klaus-012?label=Follow&style=social)](https://github.com/Klaus-012)
+![Profile Views](https://komarev.com/ghpvc/?username=Mote&color=blueviolet)
+[![GitHub followers](https://img.shields.io/github/followers/Mote?label=Follow&style=social)](https://github.com/Mote)
 
-![Klaus-012 Banner](https://images.pexels.com/photos/577585/pexels-photo-577585.jpeg?auto=compress&cs=tinysrgb&w=960&h=600&dpr=1)
+![Mote Banner](https://images.pexels.com/photos/577585/pexels-photo-577585.jpeg?auto=compress&cs=tinysrgb&w=960&h=600&dpr=1)
 
 ## 👨‍💻 About Me
 
-Hello, world! I'm Klaus-012, a passionate full stack developer with a knack for creating efficient, scalable, and user-friendly applications. With a strong foundation in both front-end and back-end technologies, I bring ideas to life through code.
+Hello, world! I'm Mote, a passionate full stack developer with a knack for creating efficient, scalable, and user-friendly applications. With a strong foundation in both front-end and back-end technologies, I bring ideas to life through code.
 
 - 🔭 I'm currently working on revolutionizing AI-powered task management
 - 🌱 I'm currently learning advanced blockchain technologies
@@ -18,11 +18,11 @@ Hello, world! I'm Klaus-012, a passionate full stack developer with a knack for 
 </div>
 
 <p align="center">
-  <a href="https://github.com/Klaus-012?tab=repositories&sort=stargazers">
-    <img alt="total stars" title="Total stars on GitHub" src="https://custom-icon-badges.demolab.com/github/stars/Klaus-012?color=55960c&style=for-the-badge&labelColor=488207&logo=star"/></a>
-  <a href="https://github.com/Klaus-012?tab=followers">
-    <img alt="followers" title="Follow me on Github" src="https://custom-icon-badges.demolab.com/github/followers/Klaus-012?color=236ad3&labelColor=1155ba&style=for-the-badge&logo=person-add&label=Follow&logoColor=white"/></a>
-  <a href="https://github.com/Klaus-012/Simple-View-Counter">
+  <a href="https://github.com/Mote?tab=repositories&sort=stargazers">
+    <img alt="total stars" title="Total stars on GitHub" src="https://custom-icon-badges.demolab.com/github/stars/Mote?color=55960c&style=for-the-badge&labelColor=488207&logo=star"/></a>
+  <a href="https://github.com/Mote?tab=followers">
+    <img alt="followers" title="Follow me on Github" src="https://custom-icon-badges.demolab.com/github/followers/Mote?color=236ad3&labelColor=1155ba&style=for-the-badge&logo=person-add&label=Follow&logoColor=white"/></a>
+  <a href="https://github.com/Mote/Simple-View-Counter">
     <img alt="views" title="GitHub profile views" src="https://freshidea.com/jonah/app/DenverCoder1-profile-views"/></a>
 </p>
 
@@ -76,21 +76,21 @@ Hello, world! I'm Klaus-012, a passionate full stack developer with a knack for 
 
 ### CryptoAI Predictor
 An advanced blockchain-based AI model for cryptocurrency price prediction.
-- 🔗 [Repository](https://github.com/Klaus-012/crypto-ai-predictor)
+- 🔗 [Repository](https://github.com/Mote/crypto-ai-predictor)
 - 🌟 Stars: 245
 - 🍴 Forks: 78
 - 🧠 Technologies: Python, TensorFlow, Ethereum, Web3.py
 
 ### DeepChain Analytics
 A data science toolkit for analyzing blockchain networks and smart contracts.
-- 🔗 [Repository](https://github.com/Klaus-012/deepchain-analytics)
+- 🔗 [Repository](https://github.com/Mote/deepchain-analytics)
 - 🌟 Stars: 189
 - 🍴 Forks: 42
 - 🧠 Technologies: Python, Pandas, NetworkX, Solidity
 
 ### QuantumLedger
 Exploring quantum computing applications in blockchain technology.
-- 🔗 [Repository](https://github.com/Klaus-012/quantum-ledger)
+- 🔗 [Repository](https://github.com/Mote/quantum-ledger)
 - 🌟 Stars: 312
 - 🍴 Forks: 95
 - 🧠 Technologies: Q#, Python, Qiskit, Hyperledger Fabric
@@ -98,33 +98,33 @@ Exploring quantum computing applications in blockchain technology.
 ## 📊 GitHub Stats
 
 <div align="center">
-  <img width="49%" height="195px" src="https://github-readme-stats.vercel.app/api?username=Klaus-012&show_icons=true&count_private=true&hide_border=true&title_color=ff91a4&icon_color=ff91a4&text_color=c9d1d9&bg_color=0d1117" alt="Klaus-012's github stats" /> 
-  <img width="41%" height="195px" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Klaus-012&layout=compact&hide_border=true&title_color=ff91a4&text_color=ff91a4&bg_color=0d1117" />
+  <img width="49%" height="195px" src="https://github-readme-stats.vercel.app/api?username=Mote&show_icons=true&count_private=true&hide_border=true&title_color=ff91a4&icon_color=ff91a4&text_color=c9d1d9&bg_color=0d1117" alt="Mote's github stats" /> 
+  <img width="41%" height="195px" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Mote&layout=compact&hide_border=true&title_color=ff91a4&text_color=ff91a4&bg_color=0d1117" />
 </div>
 
 <div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Klaus-012&theme=radical&hide_border=true&stroke=0000&background=0D1117&ring=ff91a4&fire=ff91a4&currStreakLabel=ff91a4" alt="Klaus-012's Streak" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Mote&theme=radical&hide_border=true&stroke=0000&background=0D1117&ring=ff91a4&fire=ff91a4&currStreakLabel=ff91a4" alt="Mote's Streak" />
 </div>
 
 <div align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Klaus-012&theme=radical" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Mote&theme=radical" />
 </div>
 
 ## 🏆 GitHub Trophies
 
 <div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=Klaus-012&theme=radical&no-frame=true&no-bg=true&margin-w=4" />
+  <img src="https://github-profile-trophy.vercel.app/?username=Mote&theme=radical&no-frame=true&no-bg=true&margin-w=4" />
 </div>
 
 <div align="center">
   <br><p align="centre"><b>Visitors Count</b></p>  
-  <p align="center"><img align="center" src="https://profile-counter.glitch.me/{Klaus-012}/count.svg" /></p> 
+  <p align="center"><img align="center" src="https://profile-counter.glitch.me/{Mote}/count.svg" /></p> 
   <br>
 </div>
 
 ## 📫 Let's Connect
 
-- LinkedIn: [Klaus-012](https://www.linkedin.com/in/klaus-012)
+- LinkedIn: [Mote](https://www.linkedin.com/in/Mote)
 - Twitter: [@Klaus_012](https://twitter.com/Klaus_012)
 - Personal Website: [klaus012.dev](https://klaus012.dev)
 
@@ -157,7 +157,7 @@ Exploring quantum computing applications in blockchain technology.
 
 <div align="center">
   <h3>🔍 Profile Views</h3>
-  <img src="https://profile-counter.glitch.me/{Klaus-012}/count.svg" alt="Visitor Count" />
+  <img src="https://profile-counter.glitch.me/{Mote}/count.svg" alt="Visitor Count" />
 </div>
 
 <h3 align="center">🤝 Let's Connect!</h3>
@@ -170,4 +170,4 @@ Exploring quantum computing applications in blockchain technology.
 
 ---
 
-⭐️ From [Klaus-012](https://github.com/Klaus-012)
+⭐️ From [Mote](https://github.com/Mote)
