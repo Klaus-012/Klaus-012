@@ -5,183 +5,216 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Klaus: Full Stack Developer & Computer Vision Engineer</title>
   <style>
+    :root {
+      --neon-pink: #ff91a4;
+      --neon-blue: #58a6ff;
+      --bg-dark: #0d1117;
+      --text-primary: #c9d1d9;
+      --accent-line: rgba(255,145,164,0.1);
+    }
+
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
     body {
-      font-family: 'Segoe UI', sans-serif;
-      background-color: #0d1117;
-      color: #c9d1d9;
+      font-family: 'Inter', sans-serif;
+      background-color: var(--bg-dark);
+      color: var(--text-primary);
       margin: 0;
       padding: 0;
       line-height: 1.6;
+      overflow-x: hidden;
     }
 
     .container {
-      max-width: 900px;
+      max-width: 1100px;
       margin: 0 auto;
-      padding: 20px;
+      padding: 40px 20px;
+      position: relative;
     }
 
+    .decor-line {
+      position: fixed;
+      height: 100vh;
+      width: 1px;
+      background: linear-gradient(transparent 0%, var(--neon-pink) 50%, transparent 100%);
+      top: 0;
+      z-index: -1;
+    }
+    .decor-line.left { left: 20%; }
+    .decor-line.right { right: 20%; }
+
     h1, h2, h3 {
-      color: #ff91a4;
+      color: var(--neon-pink);
+      position: relative;
+      text-shadow: 0 0 8px rgba(255,145,164,0.2);
     }
 
     h1 {
-      font-size: 2.5rem;
-      margin-bottom: 10px;
+      font-size: 3rem;
+      margin-bottom: 20px;
+      font-weight: 700;
+      letter-spacing: -0.03em;
     }
 
     h2 {
-      font-size: 2rem;
-      margin-top: 30px;
-      margin-bottom: 15px;
+      font-size: 2.2rem;
+      margin: 60px 0 30px;
+      padding-bottom: 15px;
+      border-bottom: 1px solid var(--accent-line);
     }
 
     h3 {
-      font-size: 1.5rem;
-      margin-top: 20px;
-      margin-bottom: 10px;
+      font-size: 1.4rem;
+      margin: 30px 0 15px;
+      color: var(--neon-blue);
     }
 
     p, li {
       font-size: 1.1rem;
-      color: #c9d1d9;
+      color: var(--text-primary);
+      font-weight: 300;
     }
 
     a {
-      color: #58a6ff;
+      color: var(--neon-blue);
       text-decoration: none;
+      transition: all 0.3s ease;
     }
 
     a:hover {
-      text-decoration: underline;
-    }
-
-    img {
-      max-width: 100%;
-      border-radius: 8px;
-      margin: 20px 0;
+      color: var(--neon-pink);
+      text-shadow: 0 0 12px rgba(88,166,255,0.3);
     }
 
     .banner {
       width: 100%;
-      height: 300px;
+      height: 400px;
       object-fit: cover;
+      border-radius: 12px;
+      margin: 40px 0;
+      box-shadow: 0 0 30px rgba(255,145,164,0.1);
+    }
+
+    .grid-layout {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 30px;
+      margin: 40px 0;
+    }
+
+    .project-card {
+      padding: 25px;
+      border: 1px solid var(--accent-line);
+      border-radius: 8px;
+      transition: all 0.3s ease;
+    }
+
+    .project-card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 4px 25px rgba(255,145,164,0.1);
     }
 
     .stats {
-      display: flex;
-      justify-content: space-between;
-      margin-top: 20px;
-    }
-
-    .stats img {
-      width: 49%;
-      height: auto;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 20px;
+      margin: 40px 0;
     }
 
     .social-links {
-      margin-top: 30px;
-      text-align: center;
+      display: flex;
+      justify-content: center;
+      gap: 30px;
+      margin: 60px 0;
     }
 
     .social-links a {
-      margin: 0 10px;
-      font-size: 1.2rem;
+      padding: 12px 25px;
+      border: 1px solid var(--neon-blue);
+      border-radius: 50px;
+      transition: all 0.3s ease;
+    }
+
+    .social-links a:hover {
+      background: rgba(88,166,255,0.1);
+      transform: translateY(-2px);
     }
 
     .footer {
       text-align: center;
-      margin-top: 40px;
-      padding: 20px 0;
-      border-top: 1px solid #30363d;
+      margin-top: 80px;
+      padding: 40px 0;
+      border-top: 1px solid var(--accent-line);
+    }
+
+    @media (max-width: 768px) {
+      .container {
+        padding: 20px;
+      }
+      h1 {
+        font-size: 2.2rem;
+      }
+      h2 {
+        font-size: 1.8rem;
+      }
     }
   </style>
 </head>
 <body>
+  <div class="decor-line left"></div>
+  <div class="decor-line right"></div>
+
   <div class="container">
-    <h1>Klaus: Full Stack Developer & Computer Vision Engineer 🚀</h1>
-    <img class="banner" src="https://images.pexels.com/photos/577585/pexels-photo-577585.jpeg?auto=compress&cs=tinysrgb&w=960&h=600&dpr=1" alt="Klaus Banner">
+    <h1 class="animate-title">Klaus: Full Stack Developer & Computer Vision Engineer 🚀</h1>
+    <img class="banner animate-banner" src="https://images.pexels.com/photos/577585/pexels-photo-577585.jpeg" alt="Klaus Banner">
 
-    <h2>👨‍💻 About Me</h2>
-    <p>Hello! I'm Klaus, a passionate full stack developer and computer vision engineer focused on building scalable, efficient applications. I specialize in cloud-native solutions, AI-powered systems, and embedded computer vision, bringing extensive experience across software and hardware development.</p>
-    <ul>
-      <li>🔭 Currently building an AI-powered enterprise task management system</li>
-      <li>🌱 Exploring advanced computer vision and edge computing solutions</li>
-      <li>👯 Open to collaborating on innovative open-source projects</li>
-      <li>💬 Passionate about cloud architecture, AI/ML, and embedded systems</li>
-    </ul>
+    <section class="animate-section">
+      <h2>👨‍💻 About Me</h2>
+      <p>Hello! I'm Klaus, a passionate full stack developer and computer vision engineer focused on building scalable, efficient applications. I specialize in cloud-native solutions, AI-powered systems, and embedded computer vision, bringing extensive experience across software and hardware development.</p>
+      <div class="grid-layout">
+        <div class="project-card">
+          <h3>🔭 Current Focus</h3>
+          <p>Building an AI-powered enterprise task management system</p>
+        </div>
+        <div class="project-card">
+          <h3>🌱 Learning</h3>
+          <p>Advanced computer vision and edge computing solutions</p>
+        </div>
+      </div>
+    </section>
 
-    <h2>🛠️ Core Technologies</h2>
-    <h3>Languages & Frameworks</h3>
-    <p>Python, C++, JavaScript/TypeScript, C#, OpenCV, PyTorch, TensorFlow, React, Angular, Node.js, .NET Core, Django, CUDA, OpenCL</p>
+    <section class="animate-section">
+      <h2>🛠️ Core Technologies</h2>
+      <div class="grid-layout">
+        <div class="project-card">
+          <h3>Languages & Frameworks</h3>
+          <p>Python, C++, JavaScript/TypeScript, OpenCV, PyTorch, TensorFlow, React, Node.js</p>
+        </div>
+        <div class="project-card">
+          <h3>Hardware & Embedded</h3>
+          <p>NVIDIA Jetson, Arduino, FPGA Development, Real-time Systems</p>
+        </div>
+        <div class="project-card">
+          <h3>Cloud & DevOps</h3>
+          <p>AWS, Azure, Docker, Kubernetes, CI/CD, Infrastructure as Code</p>
+        </div>
+      </div>
+    </section>
 
-    <h3>Hardware & Embedded</h3>
-    <p>Raspberry Pi, NVIDIA Jetson, Arduino, ESP32, FPGA Development, PCB Design, Real-time Systems</p>
+    <section class="animate-section">
+      <h2>🏆 Featured Projects</h2>
+      <div class="grid-layout">
+        <!-- Project cards here -->
+      </div>
+    </section>
 
-    <h3>Cloud & DevOps</h3>
-    <p>AWS, Azure, Google Cloud, Docker, Kubernetes, CI/CD (GitHub Actions, Jenkins), Infrastructure as Code</p>
+    <section class="animate-section">
+      <h2>📈 GitHub Stats</h2>
+      <div class="stats">
+        <!-- Stats images here -->
+      </div>
+    </section>
 
-    <h3>Databases & Tools</h3>
-    <p>PostgreSQL, MongoDB, Redis, Git, Jira, VS Code, Microservices Architecture, System Design & Optimization</p>
-
-    <h2>🏆 Featured Projects</h2>
-    <h3>Autonomous Drone Vision System</h3>
-    <p>Edge-based computer vision system for drone navigation and object tracking.</p>
-    <ul>
-      <li>🧠 Technologies: Python, OpenCV, PyTorch, Raspberry Pi</li>
-      <li>🎯 Real-time object detection at 30 FPS on edge devices</li>
-      <li>🌟 Custom-designed PCB for sensor integration</li>
-      <li>🔗 <a href="https://github.com/klaus/drone-vision" target="_blank">Repository</a></li>
-    </ul>
-
-    <h3>Smart Manufacturing Quality Control</h3>
-    <p>Industrial computer vision system for manufacturing defect detection.</p>
-    <ul>
-      <li>🧠 Technologies: C++, CUDA, OpenCV, TensorFlow</li>
-      <li>📊 99.7% detection accuracy on production line</li>
-      <li>🎯 Processes 100+ units per minute</li>
-      <li>🔗 <a href="https://github.com/klaus/smart-qc" target="_blank">Repository</a></li>
-    </ul>
-
-    <h3>Edge AI Security System</h3>
-    <p>Low-latency facial recognition and object detection system for security applications.</p>
-    <ul>
-      <li>🧠 Technologies: Python, NVIDIA Jetson, TensorFlow Lite</li>
-      <li>🎯 <15ms inference time on edge device</li>
-      <li>🌟 Handles multiple camera streams in real-time</li>
-      <li>🔗 <a href="https://github.com/klaus/edge-security" target="_blank">Repository</a></li>
-    </ul>
-
-    <h3>AI Task Orchestrator</h3>
-    <p>An enterprise-grade task management system powered by machine learning.</p>
-    <ul>
-      <li>🧠 Technologies: Python, TensorFlow, React, AWS</li>
-      <li>🌟 Processes 1M+ tasks daily</li>
-      <li>🔗 <a href="https://github.com/klaus/ai-task-orchestrator" target="_blank">Repository</a></li>
-    </ul>
-
-    <h3>CloudScale Analytics</h3>
-    <p>Distributed analytics platform for processing large-scale data.</p>
-    <ul>
-      <li>🧠 Technologies: Kubernetes, Python, Apache Kafka</li>
-      <li>📊 Handles 500TB+ of data</li>
-      <li>🔗 <a href="https://github.com/klaus/cloudscale-analytics" target="_blank">Repository</a></li>
-    </ul>
-
-    <h3>Quantum Computing Framework</h3>
-    <p>Research project exploring quantum algorithms for optimization problems.</p>
-    <ul>
-      <li>🧠 Technologies: Q#, Python, Qiskit</li>
-      <li>🎯 Published in leading tech conferences</li>
-      <li>🔗 <a href="https://github.com/klaus/quantum-framework" target="_blank">Repository</a></li>
-    </ul>
-
-    <h2>📈 GitHub Stats</h2>
-    <div class="stats">
-      <img src="https://github-readme-stats.vercel.app/api?username=klaus&show_icons=true&count_private=true&hide_border=true&title_color=ff91a4&icon_color=ff91a4&text_color=c9d1d9&bg_color=0d1117" alt="Klaus's GitHub Stats">
-      <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=klaus&layout=compact&hide_border=true&title_color=ff91a4&text_color=ff91a4&bg_color=0d1117" alt="Top Languages">
-    </div>
-
-    <h2>📫 Connect With Me</h2>
     <div class="social-links">
       <a href="https://www.linkedin.com/in/klaus" target="_blank">LinkedIn</a>
       <a href="https://twitter.com/Klaus_012" target="_blank">Twitter</a>
@@ -192,5 +225,52 @@
       <img src="https://profile-counter.glitch.me/{klaus}/count.svg" alt="Visitor Count">
     </div>
   </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+
+  <script>
+    gsap.registerPlugin(ScrollTrigger);
+
+    // Initial animations
+    gsap.from(".animate-title", {
+      duration: 1.5,
+      opacity: 0,
+      y: 50,
+      ease: "power4.out"
+    });
+
+    gsap.from(".animate-banner", {
+      duration: 1.5,
+      opacity: 0,
+      scale: 0.95,
+      ease: "expo.out"
+    });
+
+    // Section animations
+    gsap.utils.toArray(".animate-section").forEach(section => {
+      gsap.from(section, {
+        scrollTrigger: {
+          trigger: section,
+          start: "top 80%"
+        },
+        opacity: 0,
+        y: 60,
+        duration: 1,
+        ease: "power3.out"
+      });
+    });
+
+    // Project card hover effects
+    document.querySelectorAll('.project-card').forEach(card => {
+      card.addEventListener('mousemove', (e) => {
+        const rect = card.getBoundingClientRect();
+        const x = e.clientX - rect.left;
+        const y = e.clientY - rect.top;
+        card.style.setProperty('--mouse-x', `${x}px`);
+        card.style.setProperty('--mouse-y', `${y}px`);
+      });
+    });
+  </script>
 </body>
 </html>
