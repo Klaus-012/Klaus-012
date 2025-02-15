@@ -91,7 +91,7 @@ Research project exploring quantum algorithms for optimization problems.
 
 - LinkedIn: [Klaus](https://www.linkedin.com/in/klaus)
 - Twitter: [@Klaus_012](https://twitter.com/Klaus_012)
-- Website: [klaus012.dev](https://klaus012.dev)
+- Website: [klaus012.dev](https://klaus-012.github.io/Klaus-012/)
 
 ---
 
