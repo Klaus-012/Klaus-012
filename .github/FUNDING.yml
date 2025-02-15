@@ -1,0 +1,17 @@
+# These are supported funding model platforms
+
+github: ['yourusername'] # Add up to 4 GitHub usernames
+patreon: yourpatreonname
+ko_fi: yourkofiname
+buy_me_a_coffee: yourbmcname
+custom: ['https://yourwebsite.com/donate', 'https://custom-donation-link.com']
+
+# Uncomment and add usernames for other platforms as needed:
+# open_collective: youropencollective
+# tidelift: platform-name/package-name
+# community_bridge: project-name
+# liberapay: yourusername
+# issuehunt: yourusername
+# lfx_crowdfunding: project-name
+# polar: yourusername
+# thanks_dev: yourusername
