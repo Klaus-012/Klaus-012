@@ -48,13 +48,6 @@ Edge-based computer vision system for drone navigation and object tracking.
 - 🌟 Custom-designed PCB for sensor integration
 - 🔗 [Repository](https://github.com/klaus/drone-vision)
 
-### Smart Manufacturing Quality Control
-Industrial computer vision system for manufacturing defect detection.
-- 🧠 Technologies: C++, CUDA, OpenCV, TensorFlow
-- 📊 99.7% detection accuracy on production line
-- 🎯 Processes 100+ units per minute
-- 🔗 [Repository](https://github.com/klaus/smart-qc)
-
 ### Edge AI Security System
 Low-latency facial recognition and object detection system for security applications.
 - 🧠 Technologies: Python, NVIDIA Jetson, TensorFlow Lite
@@ -74,13 +67,6 @@ Distributed analytics platform for processing large-scale data.
 - 📊 Handles 500TB+ of data
 - 🔗 [Repository](https://github.com/klaus/cloudscale-analytics)
 
-### Quantum Computing Framework
-Research project exploring quantum algorithms for optimization problems.
-- 🧠 Technologies: Q#, Python, Qiskit
-- 🎯 Published in leading tech conferences
-- 🔗 [Repository](https://github.com/klaus/quantum-framework)
-
-## 📈 GitHub Stats
 
 <div align="center">
   <img width="49%" height="195px" src="https://github-readme-stats.vercel.app/api?username=klaus&show_icons=true&count_private=true&hide_border=true&title_color=ff91a4&icon_color=ff91a4&text_color=c9d1d9&bg_color=0d1117" alt="Klaus's github stats" /> 
@@ -89,9 +75,8 @@ Research project exploring quantum algorithms for optimization problems.
 
 ## 📫 Connect With Me
 
-- LinkedIn: [Klaus](https://www.linkedin.com/in/klaus)
 - Twitter: [@Klaus_012](https://twitter.com/Klaus_012)
-- Website: [klaus012.dev](https://klaus-012.github.io/Klaus-012/)
+- Website: [Click here!](https://klaus-012.github.io/Klaus-012/)
 
 ---
 
